@@ -1,3 +1,7 @@
+[![Gem Version](https://badge.fury.io/rb/logging-bugsnag.svg)](http://badge.fury.io/rb/logging-bugsnag)
+[![Build Status](https://travis-ci.org/koshigoe/logging-bugsnag.svg?branch=master)](https://travis-ci.org/koshigoe/logging-bugsnag)
+![Build Status](https://circleci.com/gh/koshigoe/logging-bugsnag.svg?style=shield)
+
 # Logging::Bugsnag
 
 ## Installation
