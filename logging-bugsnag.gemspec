@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'logging/bugsnag/version'
+require 'logging/plugins/bugsnag'
 
 Gem::Specification.new do |spec|
   spec.name          = "logging-bugsnag"
-  spec.version       = Logging::Bugsnag::VERSION
+  spec.version       = Logging::Plugins::Bugsnag::VERSION
   spec.authors       = ["koshigoe"]
   spec.email         = ["koshigoeb@gmail.com"]
 
@@ -22,5 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake", "~> 10.0"
 
+  spec.add_runtime_dependency 'logging'
   spec.add_runtime_dependency 'bugsnag'
 end
